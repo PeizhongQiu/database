@@ -1,0 +1,86 @@
+.title_line{
+    background-color: rgb(158, 157, 243);
+    width:100%;
+    margin-bottom:0;
+}
+.title_line #welcome{
+    float:right;
+    text-align:right;
+    font-family:"Times New Roman", Times, serif;
+    font-size:20px;
+}
+.title_line #title{
+    position: absolute;
+    left:50%;
+    margin-left:-100px;
+    font-family:"Times New Roman", Times, serif;
+    font-size:20px;
+}
+
+input,select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.form_input{
+    background:url(./image/login.jpg)  no-repeat center center;
+    background-size:100% 100%;
+    background-attachment:fixed;
+    width: 100%;
+    height:500px;
+}
+
+/* 下拉按钮样式 */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* 容器 <div> - 需要定位下拉内容 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content button {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid #555555;
+    width: 150px;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content button:hover {background-color: #f1f1f1}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+#user{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 40%;
+    width: 30%;
+}

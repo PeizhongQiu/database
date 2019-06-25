@@ -1,0 +1,29 @@
+body{
+    background:url(./image/background.jpg)  no-repeat center center;
+    background-size:100% 100%;
+    background-attachment:fixed;
+}
+h1{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 25%;
+}
+form#user{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 60%;
+}
+
+#name{
+    width: 150px;
+}
+#password{
+    width: 150px;
+}
+p{
+    font-family:"Times New Roman", Times, serif;
+    position: absolute;
+    margin-top: 500px;
+}
+
+
